@@ -6,3 +6,7 @@ var bangla=99.50;
 
 var totalMarks= math+bio+chem+phy+bangla;
 console.log(totalMarks);
+
+var average=totalMarks/5;
+averageTwoDecimal=average.toFixed(2);
+console.log(averageTwoDecimal);
